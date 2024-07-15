@@ -22,7 +22,7 @@ function ListItems() {
     "Learn Coding",
   ];
   return (
-    <div className="flex overflow-x-scroll hide-scroll-bar px-4">
+    <div className="flex overflow-x-scroll hide-scroll-bar px-4 scrollbar-none">
       <div className="flex space-x-4 flex-nowrap">
         {categories.map((category) => {
           return (
